@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-const Display = React.createElement('div',null,'Hello world to all')
+
 ReactDOM.render(
   <React.StrictMode>
     <App/>
   </React.StrictMode>,
-  Display,document.getElementById('root')
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
