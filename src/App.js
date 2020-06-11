@@ -1,5 +1,12 @@
 import React from 'react';
 import './App.css';
+import ReactDom from 'react-dom';
+const Display = React.createElement('div',null,'Hello world')
+ReactDOM.render(
+  Display,
+  document.getElementById('root')
+) 
+
 
 function App() {
   return (
@@ -10,3 +17,4 @@ function App() {
 }
 
 export default App;
+
