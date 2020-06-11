@@ -10,7 +10,7 @@ ReactDOM.render(
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Hello world from Amir</h1>
     </div>
   );
