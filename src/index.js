@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-const Display = React.createElement('ul'null,
-React.createElement("li",null,"Ammir"),
-React.createElement("li",null,"irfan")
-);
-console.log(Display)
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App/>
