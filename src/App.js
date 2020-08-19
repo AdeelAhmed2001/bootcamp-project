@@ -12,6 +12,9 @@ function App() {
                <p>feed back:
                   <input type="text" name="First Name" size="15" maxlength="8"/>
                </p>
+               <p>
+                  <input type="Submit"/>
+                </p>
                
          </div>
    );
